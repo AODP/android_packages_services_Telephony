@@ -191,7 +191,7 @@
 
     <!-- Determine whether the voicemail notification is persistent in the notification bar.
          If true, the voicemail notifications cannot be dismissed from the notification bar. -->
-    <bool name="voicemail_notification_persistent">false</bool>
+    <bool name="voicemail_notification_persistent">true</bool>
 
     <!-- Disables dialing "*228" (OTASP provisioning) on CDMA carriers where it is not supported or
          is potentially harmful by locking the SIM to 3G. -->
@@ -226,7 +226,7 @@
     <bool name="config_enable_cfu_time">false</bool>
 
     <!-- Whether to set voicemail address editable-->
-    <bool name="config_regional_voicemail_address_editable">false</bool>
+    <bool name="config_regional_voicemail_address_editable">true</bool>
 
     <!-- enable network checking for ut interface-->
     <bool name="check_mobile_data_for_cf">false</bool>
